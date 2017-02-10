@@ -70,23 +70,21 @@ Test Plan:
 		- Tried entering characters and letters other than numbers.
   - Collecting Price: 
     - Tested that the user is able to enter nothing.
-		- Tested that the user cannot enter negative numbers, eg -100
-		- Tested that the user cannot enter anything other than numbers and a single decimal. If they do enter a decimal, it must be immediately followed by two numbers, eg 234rt or 1234.3491204145
-	- No error checking for author, publisher or maker.
-		
- - Testing the "Search" option
-		- Tested entering all parameters at once, as well as none to make sure nothing happened.
-		- Tested to make sure the program accepted nothing for ID, name, and year.
-		- Made sure the program did not accept anything other than positive numbers for ID, and
-		  that it could only be six digits long.
-		- checked to make sure year was between 1000 to 9999 and it contained no more than a single
-		  hyphen.
-		- There weren't any tests for name.
-		- Checked the output to make sure it displayed the proper products given the provided search
-		  parameters.
-		- Tested by searching for items that did exists, as well as items that did not.
+    - Tested that the user cannot enter negative numbers, eg -100
+    - Tested that the user cannot enter anything other than numbers and a single decimal. If they do enter a decimal, it must be immediately followed by two numbers, eg 234rt or 1234.3491204145
+   
+   - No error checking for author, publisher or maker.
+
+- Testing the "Search" option
+	- Tested entering all parameters at once, as well as none to make sure nothing happened.
+	- Tested to make sure the program accepted nothing for ID, name, and year.
+	- Made sure the program did not accept anything other than positive numbers for ID, and that it could only be six digits long.
+	- checked to make sure year was between 1000 to 9999 and it contained no more than a single hyphen.
+	- There weren't any tests for name.
+	- Checked the output to make sure it displayed the proper products given the provided search parameters.
+	- Tested by searching for items that did exists, as well as items that did not.
 		  
-  - Testing the GUI
+- Testing the GUI
 		- Tested all the options in the JMenuBar to make sure they revealed the appropriate screen,
                   for example selecting "Search" opens the corresponding search interface
 		- Tested that both the "Exit" and the top-right "X" button properly exited the program and
@@ -100,8 +98,7 @@ Test Plan:
 		  the desired methods.
 
 
-  - Tested "Quit" to make sure the program exited and the contents of the list were printed back into
-    the input file in the proper format
+- Tested "Quit" to make sure the program exited and the contents of the list were printed back into the input file in the proper format
     				
 *****
 What improvements could be done if there was extra time:
